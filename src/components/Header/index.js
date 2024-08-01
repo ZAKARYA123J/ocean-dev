@@ -2,7 +2,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
-import logo from "../../assets/ocean.jpeg";
+import logo from "../../assets/ocean.svg";
 
 const Headers = styled.header`
   display: flex;
@@ -24,7 +24,7 @@ const Headers = styled.header`
 const Logo = styled.a`
   display: flex;
   align-items: center;
-  width: 20rem;
+  width: 6rem;
   height: auto;
   cursor: pointer;
   img {
